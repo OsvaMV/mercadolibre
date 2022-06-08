@@ -1,0 +1,63 @@
+{
+	"info": {
+		"_postman_id": "98ff9c37-09cb-443a-911b-af41381db3e3",
+		"name": "X-Man AWS Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/stats",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://ugzcrsz2pv.us-east-1.awsapprunner.com/x-man/stats",
+					"protocol": "https",
+					"host": [
+						"ugzcrsz2pv",
+						"us-east-1",
+						"awsapprunner",
+						"com"
+					],
+					"path": [
+						"x-man",
+						"stats"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/mutant/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"dna\":[\"ATGCGA\",\"CAGTGC\",\"TTATGT\",\"AGAAGG\",\"CCCCTA\",\"TCACTG\"]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://ugzcrsz2pv.us-east-1.awsapprunner.com/x-man/mutant/",
+					"protocol": "https",
+					"host": [
+						"ugzcrsz2pv",
+						"us-east-1",
+						"awsapprunner",
+						"com"
+					],
+					"path": [
+						"x-man",
+						"mutant",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
