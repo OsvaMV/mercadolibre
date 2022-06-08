@@ -1,0 +1,6 @@
+Instrucciones para ejecutar y probar la funcionalidad del proyecto en local:
+    1- Importar o abrir el proyecto como "proyecto maven"
+    2- Ejecutar la clase main del proyecto con el nombre "MutantensXmanServiceApplication.java"
+    3- En Postman se debera importar la colección con el nombre "X-Man Local Collection.json"
+    4- Probar los 2 servicios que se exponen para el proyecto
+
